@@ -1,0 +1,17 @@
+{
+    "outputSet": [
+      {
+        "action": "greet",
+        "timesOccurred": 0,
+        "outputs": [
+          {
+            "type": "text",
+            "valueAlternatives": [
+              "Hi there! Nice to meet up! :-)",
+              "Hey you!"
+            ]
+          }
+        ]
+      }
+    ]
+  }
