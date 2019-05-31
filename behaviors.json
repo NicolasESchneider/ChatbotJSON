@@ -1,19 +1,24 @@
 {
     "behaviorGroups": [
-        {
+      {
+        "name": "Smalltalk",
+        "behaviorRules": [
+          {
             "name": "Greeting",
             "actions": [
-                "greet"
+              "greet"
             ],
-            "children":[
-                {
-                    "type":"inputmatcher",
-                    "values":{
-                        "expressions": "greeting(*)",
-                        "occurence": "currentStep"
-                    }
+            "conditions": [
+              {
+                "type": "inputmatcher",
+                "configs": {
+                  "expressions": "greeting(*)",
+                  "occurrence": "currentStep"
                 }
+              }
             ]
-        }
+          }
+        ]
+      }
     ]
-}
+  }
