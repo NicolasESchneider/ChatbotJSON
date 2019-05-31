@@ -1,0 +1,19 @@
+{
+    "behaviorGroups": [
+        {
+            "name": "Greeting",
+            "actions": [
+                "greet"
+            ],
+            "children":[
+                {
+                    "type":"inputmatcher",
+                    "values":{
+                        "expressions": "greeting(*)",
+                        "occurence": "currentStep"
+                    }
+                }
+            ]
+        }
+    ]
+}
