@@ -1,0 +1,15 @@
+{
+    "words": [
+        {
+            "word":"Hello",
+            "exp":"greeting(hello)",
+            "frequency":0
+        }
+    ],
+    "phrases": [
+        {
+            "phrase":"Good morning",
+            "exp":"greeting(good_morning)"
+        }
+    ]
+}
